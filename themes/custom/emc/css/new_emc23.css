@@ -1,0 +1,41 @@
+/* D8 custom stuff, in no particular order */
+/* apply a natural box layout model to all elements, but allowing components to change */
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.region-highlighted  {
+	max-width: 90%;
+	margin: 0 auto;
+	padding: 0 0.5em;
+}
+
+.region-highlighted .block {
+	float: left;
+	width: 33.333333%;
+	padding: 0 1em;
+}
+
+main {
+	clear: both;
+}
+
+h1 {
+	font-family: 'Droid Sans', sans-serif;
+}
+
+.region-primary-menu ul,
+.region-secondary-menu ul ,
+.region-footer ul {
+	list-style-type: none;
+}
+
+.region-primary-menu ul li,
+.region-secondary-menu ul li ,
+.region-footer ul li {
+	display: inline-block;
+	padding: 0 1em 0 0;
+}

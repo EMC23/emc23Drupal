@@ -1,0 +1,19 @@
+figure {
+    padding: 0 1rem;
+    max-width: 33rem;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+}
+
+figure.left {
+    float: left;
+    margin: 0 1rem 1.5rem 0;
+    padding: 1rem;
+}
+
+p + figure {
+    margin-top: 1rem;
+}

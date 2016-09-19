@@ -1,0 +1,48 @@
+
+body {
+	background-image: url(../images/blue_bg.png);
+}
+
+
+div#wrapper {
+background: url(../images/blue_glare.png) 0% 0% no-repeat #000;
+}
+
+h1.componentheading {
+border-bottom:1px #0099CC dotted;
+}
+
+h2.contentheading {
+color: #0099CC;
+}
+
+a:link, a:visited {
+	color: #0099CC;
+}
+
+a:hover {
+color:#F7F7F7;
+}
+
+/*#nav ul li a, 
+#nav ul li a:visited {
+color: #0099CC; 
+}
+#nav ul li a:hover {
+color: #D4D4D4; 
+}*/
+
+
+/*Left Column List Menu*/
+
+#left ul.menu li a:link, 
+#left ul.menu li a:visited {
+	color: #F9F9F9;
+	background: url(../images/blue_menubg.png) no-repeat left center;
+}
+
+#left ul.menu li a:hover {
+	color: #0099CC;
+	background: url(../images/menubg.png) no-repeat left center;
+}
+

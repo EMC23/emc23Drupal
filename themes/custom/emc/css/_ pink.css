@@ -1,0 +1,48 @@
+
+body {
+	background-image: url(../images/pink_bg.png);
+}
+
+
+div#wrapper {
+background: url(../images/pink_glare.png) 0% 0% no-repeat #000;
+}
+
+h1.componentheading {
+border-bottom:1px #FF0099 dotted;
+}
+
+h2.contentheading {
+color: #FF0099;
+}
+
+a:link, a:visited {
+	color: #FF0099;
+}
+
+a:hover {
+color:#F7F7F7;
+}
+
+/*#nav ul li a, 
+#nav ul li a:visited {
+color: #FF0099; 
+}
+#nav ul li a:hover {
+color: #D4D4D4; 
+}*/
+
+
+/*Left Column List Menu*/
+
+#left ul.menu li a:link, 
+#left ul.menu li a:visited {
+	color: #F9F9F9;
+	background: url(../images/pink_menubg.png) no-repeat left center;
+}
+
+#left ul.menu li a:hover {
+	color: #FF0099;
+	background: url(../images/menubg.png) no-repeat left center;
+}
+

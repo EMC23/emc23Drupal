@@ -1,0 +1,166 @@
+
+/* apply a natural box layout model to all elements, but allowing components to change */
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+
+
+
+@media only screen and (min-width: 800px) {
+
+
+    #header,
+    header[role=banner],
+    .main-menu,
+    #main,
+    .region-top,
+    .region-primary-menu,
+    .region-highlighted,
+    main[role=main],
+    .region-footer,
+	.region-breadcrumb {
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+
+    main {
+        display: flex;
+        flex-direction: row;
+		margin-bottom: 30px !important;
+    }
+
+    main > section {
+		width: 70%;
+    }
+    main > aside {
+        flex: 1 0 0;
+    }
+
+    header[role=banner] {
+        margin-top: 3rem;
+    }
+
+    #sitename span.sup {
+        font-size: 0.5em;
+        vertical-align: top;
+    }
+
+    #block-emc-branding {
+        float: left;
+        margin: 0;
+        padding: 1rem 0 2rem 1rem;
+        text-align: left;
+        /*max-width: 300px;*/
+    }
+
+    #block-emc-branding a img {
+        display: block;
+        float: left;
+        position: relative;
+        z-index: 100;
+    }
+
+    #block-emc-branding #sitename {
+        margin: 0 0 0 60px;
+    }
+    #block-emc-branding #sitedescription {
+        display: block;
+        margin: 0 0 0 60px;
+    }
+	
+	.block-system-breadcrumb-block {
+		margin: 0;
+	}
+
+	.block-system-breadcrumb-block ol {
+		margin: 0;
+		padding: 0;
+	}
+	
+    .region-primary-menu nav,
+    .region .main-menu {
+        position: relative;
+        margin-bottom: 2rem;
+    }
+
+    .region nav ul {
+        display: flex;
+        flex-direction: row;
+        text-align: center;
+        margin: 0;
+        padding: 0;
+    }
+
+    .region nav ul li {
+        display: block;
+        flex: 1 1 0;
+    }
+
+    .region nav ul > li > a,
+    .region .main-menu ul > li > a {
+        display: block;
+        padding: 0.5rem 0;
+    }
+
+    .region-top,
+    .region-highlighted {
+        display: flex;
+        flex-direction: row;
+        text-align: center;
+        padding: 0 0 3rem;
+    }
+
+    .region-top .block,
+    .region-highlighted .block {
+        display: block;
+        flex: 1 1 0;
+    }
+
+    .block {
+        padding: 0 1rem 1rem;
+        margin: 0 0 1rem;
+    }
+
+    .region-highlighted .block {
+        margin: 0 1rem 1rem;
+    }
+
+    .block:first-child {
+        padding-left: 0;
+    }
+
+    .block:last-child {
+        padding-right: 0;
+    }
+
+    .block h3 {
+        margin: 0 0 1rem;
+    }
+
+    main aside .block h3 {
+        padding: 1rem;
+    }
+
+    #main > article {
+        padding: 1rem 3rem 3rem;
+    }
+
+    #main + aside {
+        margin-left: 2rem;
+    }
+
+
+    footer {
+        margin-top: 2rem;
+    }
+
+    header[role=banner],
+    .region-primary-menu {
+        clear: both;
+    }
+
+}

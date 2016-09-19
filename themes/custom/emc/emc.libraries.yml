@@ -1,0 +1,19 @@
+global-css:
+  css:
+    theme:
+      css/html5-normalize.css: {}
+      css/html5-main.css: {}
+      css/templates.css: {}
+      css/theme.css: {}
+      css/custom_emc23.css: {}
+      #css/new_emc23.css: {}
+      css/layout.css: {}
+      css/styles.css: {}
+      css/images.css: {}
+
+
+global-js:
+  js:
+    js/script.js: {}
+  dependencies:
+    - core/jquery

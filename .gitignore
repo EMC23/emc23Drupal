@@ -33,4 +33,5 @@ xmlrpc.php
 /modules
 /profiles
 /scripts
-/themes
+
+/core/
