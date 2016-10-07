@@ -17,13 +17,13 @@
 #}
 {% block content %}
   {% if site_logo %}
-        <a href="{{ path('<front>') }}" title="{{ 'emc23.com Home'|t }}" rel="home">
+        <a href="/blog" title="{{ 'emc23.com Home'|t }}" rel="home">
           <img src="{{ site_logo }}" alt="{{ 'Home'|t }}" />
         </a>
   {% endif %}
   {% if site_name %}
       <div id="sitename">
-          <a href="{{ path('<front>') }}" title="{{ 'Home'|t }}" rel="home">e=mc<span class="sup">23</span>
+          <a href="/blog" title="{{ 'Home'|t }}" rel="home">e=mc<span class="sup">23</span>
           </a>
       </div>
   {% endif %}

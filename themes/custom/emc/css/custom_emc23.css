@@ -17,11 +17,13 @@ body#left-only #LoadFirst .row-fluid  #MiddleCol[class*="span"] {
 /* Front Page instance of Carousel - with module class suffix front_page */
 .front_page .carousel-inner {
 height:200px;overflow:hidden;
-background:none;}
+background:none;
+}
 
 .front_page .carousel-inner h4, .front_page .carousel-inner p{
 padding:0;
-line-height: 1.5em;}
+line-height: 1.5em;
+}
 
 
 .front_page .carousel-inner h4 {
@@ -529,10 +531,10 @@ text-decoration: underline;
 a:focus {outline:1px dotted #3C3C3C;}
 /* Headings */
 h1 {
-color: #666;
+color: #ccc;
 }
 h2 {
-color: #666;
+color: #FFDD07;
 }
 h3 {}
 h4 {color:#FFDD07}
