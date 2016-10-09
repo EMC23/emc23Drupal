@@ -130,7 +130,7 @@ html {
     }
 
     .block {
-        padding: 0 1rem 1rem;
+        /*padding: 0 1rem 1rem;*/
         margin: 0 0 1rem;
     }
 
@@ -138,13 +138,13 @@ html {
         margin: 0 1rem 1rem;
     }
 
-    .block:first-child {
+    /*.block:first-child {
         padding-left: 0;
     }
 
     .block:last-child {
         padding-right: 0;
-    }
+    }*/
 
     .block h3 {
         margin: 0 0 1rem;
@@ -170,6 +170,18 @@ html {
     header[role=banner],
     .region-primary-menu {
         clear: both;
+    }
+
+
+
+    .node--type-article.node--view-mode-teaser .node__content .field--name-field-feature-image {
+        float: left;
+        margin: 1em 1em 0 0;
+    }
+
+    .field-collection-item--name-field-image-media-set .field--name-field-image {
+        float: left;
+        margin: 0 1em 1em 0;
     }
 
 }

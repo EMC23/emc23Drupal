@@ -56,7 +56,6 @@
 
   {{ page.primary_menu }}
 
-  {{ page.secondary_menu }}
 
   {{ page.breadcrumb }}
 
@@ -68,14 +67,17 @@
     <a id="main-content" tabindex="-1"></a>{# link is in html.html.twig #}
     <section id="main" role="main">
 
-      <article>
+        {{ page.secondary_menu }}
 
-    <div class="layout-content">
-      {{ page.content }}
-    </div>{# /.layout-content #}
+        <article>
 
-      </article>
-      </section>
+            <div class="layout-content">
+              {{ page.content }}
+            </div>{# /.layout-content #}
+
+        </article>
+
+    </section>
 
     {% if page.sidebar_first %}
       <aside class="layout-sidebar-first" role="complementary">

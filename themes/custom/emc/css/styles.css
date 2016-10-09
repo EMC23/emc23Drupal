@@ -12,7 +12,7 @@ a:link {
 }
 
 a:visited {
-    color: #f4f4f4;
+    color: #009999;
 }
 
 a:hover {
@@ -58,6 +58,10 @@ ol {
     line-height: 1.5rem;
     text-shadow: 2px 2px 2px #000;
 }
+
+
+
+
 .region nav,
 .region  .main-menu {
     border-bottom: 1px solid #111111;
@@ -131,6 +135,8 @@ ol {
 
 
 
+
+
 .region nav .effect {
     position: absolute;
     left: -25%; /* extra to compensate for the glow */
@@ -193,12 +199,12 @@ figcaption {
     border: 1px solid #111111;
     border-radius: 8px;
 }
-
+/*
 main aside .block {
     background-color: rgba(93,70,167,0.3);
     border: 1px solid #111111;
     border-radius: 8px;
-}
+}*/
 
 
 .block h3 {
