@@ -36,10 +36,19 @@ html {
     main > section {
 		width: 70%;
     }
+
+    .page-node-type-iframe main > section {
+        width: 80%;
+    }
+    .node--type-iframe > div {
+        text-align: center;
+    }
+    .node--type-iframe > div h3 {
+        text-align: left;
+    }
     main > aside {
         flex: 1 0 0;
     }
-
     header[role=banner] {
         margin-top: 3rem;
     }
