@@ -330,5 +330,7 @@ article > header > .node__meta > span {
 }
 
 
-
+.node--type-page .field--name-field-image img {
+    margin:1em 0;
+}
 
