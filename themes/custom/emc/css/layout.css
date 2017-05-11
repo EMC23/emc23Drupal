@@ -8,9 +8,45 @@ html {
 }
 
 
+#block-emc-branding {
+    margin: 0;
+    padding: 1rem 0;
+    text-align: left
+}
+
+#block-emc-branding a img {
+    display: block;
+    float: left;
+    position: relative;
+    z-index: 100;
+}
+
+#block-emc-branding #sitename {
+    margin: 0 0 0 60px;
+}
+#block-emc-branding #sitedescription {
+    display: none;
+}
+
+#block-emc23dotcomstweets {
+    display: none;
+}
 
 
-@media only screen and (min-width: 800px) {
+#main > article {
+    padding: 0.5rem 1rem;
+}
+
+@media only screen and (min-width: 400px) {
+    #block-emc-branding #sitedescription {
+        display: block;
+        margin: 0 0 0 60px;
+    }
+}
+
+
+
+    @media only screen and (min-width: 800px) {
 
 
     #header,
@@ -62,24 +98,8 @@ html {
         float: left;
         margin: 0;
         padding: 1rem 0 2rem 1rem;
-        text-align: left;
-        /*max-width: 300px;*/
     }
 
-    #block-emc-branding a img {
-        display: block;
-        float: left;
-        position: relative;
-        z-index: 100;
-    }
-
-    #block-emc-branding #sitename {
-        margin: 0 0 0 60px;
-    }
-    #block-emc-branding #sitedescription {
-        display: block;
-        margin: 0 0 0 60px;
-    }
 	
 	.block-system-breadcrumb-block {
 		margin: 0;
@@ -97,11 +117,7 @@ html {
     }
 
     .region nav ul {
-        display: flex;
-        flex-direction: row;
-        text-align: center;
-        margin: 0;
-        padding: 0;
+        margin:0;
     }
 
     .region nav ul li {
@@ -184,4 +200,10 @@ html {
         margin: 0 1em 1em 0;
     }
 
-}
+    /* prefer twtitter app to embedded tweets on mobile */
+    #block-emc23dotcomstweets {
+        display: block;
+    }
+
+
+    }

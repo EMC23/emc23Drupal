@@ -27,15 +27,30 @@ h1 {
 	font-family: 'Droid Sans', sans-serif;
 }
 
+
+.region nav ul,
 .region-primary-menu ul,
-.region-secondary-menu ul ,
+.region-secondary-menu ul,
 .region-footer ul {
 	list-style-type: none;
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	text-align: center;
+	padding: 0;
 }
 
 .region-primary-menu ul li,
 .region-secondary-menu ul li ,
 .region-footer ul li {
-	display: inline-block;
-	padding: 0 1em 0 0;
+	padding: 0;
+	flex: 1 0 auto;
 }
+
+.region nav ul > li > a,
+.region .main-menu ul > li > a {
+	display: block;
+	padding: 0.5rem 1rem;
+}
+
+

@@ -289,10 +289,10 @@ max-height: 200px;
 	border-top:1px solid #333;
 	padding:0.5em 0;
 	}
-
-	body {
-	padding:0 15px;
+	.layout-container {
+		padding: 0.5rem 1rem;
 	}
+
 	.effect {
 	display: none;
 	}
