@@ -37,6 +37,10 @@ html {
     padding: 0.5rem 1rem;
 }
 
+footer.node__meta {
+    margin-bottom: 1rem;
+}
+
 @media only screen and (min-width: 400px) {
     #block-emc-branding #sitedescription {
         display: block;
@@ -179,7 +183,7 @@ html {
     }
 
 
-    footer {
+    footer.footer {
         margin-top: 2rem;
     }
 
