@@ -368,19 +368,19 @@ article > header > .node__meta > span {
     border: 2px solid #333;
 }
 
-.field--name-field-transmission-mix > .field__label {
+.field--name-field-transmission > .field__label {
     margin-bottom: 1rem;
     background: #333;
     padding: 0.5rem 1rem;
 }
 
-.field--name-field-transmission-mix > .field__items > .field__item {
+.field--name-field-transmission > .field__items > .field__item {
     border: 1px solid #333;
     background: #111;
     padding: 0 1rem 1rem;
     margin-bottom: 1rem;
 }
-.field--name-field-transmission-mix article .node__content {
+.field--name-field-transmission article .node__content {
     border-bottom: 0 none;
 }
 
