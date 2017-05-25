@@ -21,6 +21,7 @@ global-js:
 p5:
   js:
     js/p5/p5.min.js: {}
+    js/p5/lib/p5.dom.js: {}
     js/p5/lib/p5.speech.js: {}
     js/p5/lib/p5.gibber.min.js: {}
     js/p5/lib/rita-full.min.js: {}
