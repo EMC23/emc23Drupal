@@ -30,8 +30,26 @@ update.php
 xmlrpc.php
 /includes
 /misc
-/modules
+/modules/contrib
 /profiles
 /scripts
 
 /core/
+/libraries/
+/themes/contrib/
+/composer.phar
+/autoload.php
+/LICENSE
+/robots.txt
+/update.php
+/web.config
+/sites/development.services.yml
+/sites/example.settings.local.php
+/sites/example.sites.php
+/experiments/
+/modules/README.txt
+/sites/default/default.services.yml
+/sites/
+/composer.json
+/composer.lock
+/example.gitignore

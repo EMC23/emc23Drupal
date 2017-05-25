@@ -26,7 +26,7 @@ function setup() {
  //   listbutton.mousePressed(doList);
     // say hello:
 
-    var world = createCanvas(660, 400);
+    var world = createCanvas(330, 200);
     world.parent('world');
     textFont('times', 22);
     textAlign(LEFT);

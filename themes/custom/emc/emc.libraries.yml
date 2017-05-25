@@ -20,10 +20,39 @@ global-js:
 
 p5:
   js:
-    js/sketch.js: {}
+    js/p5/p5.min.js: {}
+    js/p5/lib/p5.speech.js: {}
+    js/p5/lib/p5.gibber.min.js: {}
+    js/p5/lib/rita-full.min.js: {}
+
+sketch001:
+  js:
+    js/p5/sketch001.js: {}
   dependencies:
-    js/lib/p5.min.js: {}
-    js/lib/p5.speech.js: {}
-    js/lib/p5.gibber.min.js: {}
-    js/lib/p5.midi.js: {}
-    js/lib/rita-full.min.js: {}
+    - emc/p5
+
+sketch002:
+  js:
+    js/p5/sketch002.js: {}
+  dependencies:
+    - emc/p5
+
+phaser:
+  js:
+    js/phaser/phaser.js: {}
+    js/phaser/box2d-plugin-full.min.js: {}
+    js/phaser/plugins/HUDManager.js: {}
+
+phaser001:
+  js:
+    js/phaser/script001.js: {}
+  dependencies:
+    - emc/phaser
+
+phaser030:
+  js:
+    js/phaser/030_thomas/state001.js: {}
+    js/phaser/030_thomas/start.js: {}
+
+  dependencies:
+    - emc/phaser
