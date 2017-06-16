@@ -1422,4 +1422,22 @@ width:50%;
 		text-align: right;
 	}
 
+
 }
+
+#block-helloblock {
+	position: relative;
+	width: auto;
+	height: 180px;
+	padding: 40px 75px 0;
+	margin-bottom: 10px;
+	text-align: center;
+	background: url(http://www.emc23.com/sites/default/files/emcRadio-bg.png) no-repeat 50% 50%;
+	background-size: contain;
+}
+
+#block-helloblock h3 {
+	 padding: 0;
+	 color: white;
+	 text-align: left;
+ }
