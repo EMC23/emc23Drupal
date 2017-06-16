@@ -38,6 +38,7 @@ h1 {
 	flex-direction: row;
 	text-align: center;
 	padding: 0;
+	margin-left: 0;
 }
 
 .region-primary-menu ul li,

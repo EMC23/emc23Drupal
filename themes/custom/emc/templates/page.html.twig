@@ -48,7 +48,12 @@
  * @see html.html.twig
  */
 #}
+
+{# radio player #}
+{{ page.shelf }}
+
 <div class="layout-container">
+
 
     <header role="banner">
         {{ page.header }}
@@ -90,6 +95,14 @@
     {% endif %}
 
   </main>
+
+
+
+    <div class="radio-control">
+        <a class="go-to-radio" href="#radio-anchor"><div><em>Scroll to </em>radio player</div></a>
+    </div>
+
+
 
   {% if page.footer %}
     <footer role="contentinfo">
