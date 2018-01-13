@@ -76,12 +76,13 @@ footer.node__meta {
     main > section {
 		width: 70%;
     }
-
+/*
     .page-node-type-iframe main > section,
     .page-node-type-phaser main > section,
     .page-node-type-p5 main > section {
         width: 80%;
     }
+*/
     .node--type-iframe > div {
         text-align: center;
     }

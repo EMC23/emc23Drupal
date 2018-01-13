@@ -1441,3 +1441,7 @@ width:50%;
 	 color: white;
 	 text-align: left;
  }
+
+.pager__item.is-active a {
+	background: #333;
+}
