@@ -27,6 +27,10 @@ h1 {
     line-height: 1.2;
 }
 
+h3 {
+    color: #d4d4d4;
+}
+
 ol {
     list-style-type: none;
 }
@@ -199,16 +203,6 @@ main aside .block {
 }*/
 
 
-.block h3 {
-    color: #d4d4d4;
-    text-align: left;
-    text-transform: uppercase;
-    font-size: 1.2rem;
-    font-weight: 400;
-}
-
-
-
 
 /* hard rules
 
@@ -309,7 +303,7 @@ article > header > .node__meta > span {
 
 #block-emc-page-title {
     padding: 0;
-    margin: 0;
+    margin: 0 0 1rem;
 }
 
 #block-emc-page-title h1 {
@@ -365,13 +359,34 @@ article > header > .node__meta > span {
 }
 
 @media only screen and (min-width: 480px) {
-    .field--name-field-cover {
+    .tune-cover {
         float: left;
         margin: 0 1rem 0.5rem 0 !important;
         padding: 1rem;
         border: 2px solid #333;
     }
+    .tune-cover > .field {
+        margin: 0;
+    }
+    .tune-details {
+        float: left;
+        max-width: 50%;
+        margin: 0 1rem 0 0 0.5rem !important;
+        padding: 1rem;
+        background: #111;
+    }
+    .tune-details .field:first-child,
+    .tune-details .field--type-text-with-summary > p:first-child {
+        margin-top: 0;
+    }
+    .tune-comment {
+        float: none;
+        clear: both;
+        padding: 1rem 0 2rem;
+    }
 }
+
+
 
 .field--name-field-transmission > .field__label {
     margin-bottom: 1rem;
