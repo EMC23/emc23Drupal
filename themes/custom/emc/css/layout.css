@@ -204,7 +204,11 @@ footer.node__meta {
 
     .field-collection-item--name-field-image-media-set .field--name-field-image {
         float: left;
-        margin: 0 1em 1em 0;
+        margin: 0 2em 1em 0;
+    }
+
+    .field-collection-item--name-field-image-media-set .field--name-field-paragraph .field__item > ul {
+        list-style-position: inside;
     }
 
     /* prefer twtitter app to embedded tweets on mobile */
