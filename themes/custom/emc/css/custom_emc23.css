@@ -1460,6 +1460,13 @@ width:50%;
 	color: white;
 }
 
+.comment .content {
+	background: #111;
+	border: 1px solid #333;
+	padding: 1rem;
+	margin: 2rem 0;
+}
+
 .field--type-comment .comment-form__title {
 	margin-top: 0;
 	font-weight: 400;
@@ -1489,4 +1496,8 @@ width:50%;
 
 .views-element-container article .node__content {
 	border-bottom: 0 solid #333;
+}
+
+.image-style-extra-large {
+	margin-bottom: 2rem;
 }
